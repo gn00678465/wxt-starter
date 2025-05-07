@@ -7,5 +7,9 @@ export default antfu({
   ignores: [
     'src/components/ui/*',
     'src/lib/utils.ts',
+    '.github/*',
+    '.vscode/*',
   ],
+}).overrideRules({
+  'no-console': ['warn'],
 })

@@ -1,5 +1,5 @@
-import { defineConfig } from 'wxt';
-import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'wxt'
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
@@ -13,11 +13,9 @@ export default defineConfig({
     name: '__MSG_extension_name__',
     permissions: [],
   },
-  
-  // @ts-expect-error
   vite: () => ({
     plugins: [
-      tailwindcss()
-    ]
-  })
-});
+      tailwindcss(),
+    ],
+  }),
+})
