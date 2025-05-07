@@ -84,13 +84,13 @@
   // GitHub Copilot Chat - 自訂 Git Commit 訊息提示
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
+      "file": ".github/copilot-commit-message-instructions.md"
+    },
+    {
       "text": "# Use Conventional Commits 1.0.0 for commit messages."
     },
     {
       "text": "請一律使用正體中文來撰寫記錄"
-    },
-    {
-      "file": ".copilot-commit-message-instructions.md"
     }
   ],
   // GitHub Copilot Chat - 自訂 Pull Request 描述提示
