@@ -6,13 +6,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Button onClick={() => setCount(count => count + 1)}>
+    <div className="w-64 p-4 flex flex-col items-center justify-center gap-y-4">
+      <h1 className="text-xl font-bold">{browser.i18n.getMessage('extName')}</h1>
+      <Button className="" onClick={() => setCount(count => count + 1)}>
         count is
         {' '}
         {count}
       </Button>
-    </>
+    </div>
   )
 }
 

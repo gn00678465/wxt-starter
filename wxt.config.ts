@@ -8,9 +8,10 @@ export default defineConfig({
   modules: ['@wxt-dev/module-react'],
 
   manifest: {
-    description: '__MSG_extension_description__',
+    default_locale: 'en',
+    description: '__MSG_extDescription__',
     host_permissions: [],
-    name: '__MSG_extension_name__',
+    name: '__MSG_extName__',
     permissions: [],
   },
   vite: () => ({
